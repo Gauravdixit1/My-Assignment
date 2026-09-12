@@ -1,0 +1,11 @@
+{
+    "student_id": "STU-2026-000001",
+    "full_name": "Gaurav Sharma",
+    "age": 33,
+    "email": "Gaurav.sharma@example.com",
+    "phone_number": "+918130801174",
+    "course": "Computer Science",
+    "has_previous_education": true,
+    "has_required_documents": true,
+    "consent_given": true
+}

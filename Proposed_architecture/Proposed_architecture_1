@@ -1,0 +1,37 @@
+Incoming Student Onboarding JSON
+              │
+              ▼
+     JSON Structure Validation
+              │
+              ▼
+ Django REST Framework Model Serializer
+              │
+       ┌──────┴──────┐
+       │             │
+       ▼             ▼
+Field Validation   Cross-field Rules
+       │             │
+       └──────┬──────┘
+              ▼
+       Normalized Data
+              │
+              ▼
+      DCYN Mapping Layer
+              │
+       ┌──────┴──────┐
+       ▼             ▼
+      YES            NO
+       │             │
+       └──────┬──────┘
+              ▼
+       Binary DCYN Library
+              │
+              ▼
+     Build / Security Gate
+              │
+       ┌──────┴──────┐
+       ▼             ▼
+   Valid Input    Invalid Input
+       │             │
+       ▼             ▼
+    PASS OPEN     FAIL-CLOSED
